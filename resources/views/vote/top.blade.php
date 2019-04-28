@@ -326,6 +326,9 @@
                     </dd>
                     <input type="submit" id="button" name="button1" value="確認画面へ" class="btn btn-primary"; />
                 </form>
+                <div class="show">
+                    <a href="http://ec2-18-191-25-220.us-east-2.compute.amazonaws.com/vote/public/show">投票結果へ</a>
+                </div>
             </div>
         </div>
         <footer>
