@@ -129,9 +129,15 @@
             <div class="main">
                 <h2>投票結果</h2>
                 <div class="show">
+                    <table border="1">
+                    <tr><th>競技名</th><th>投票数</th></tr>    
                     @foreach($data as $key => $value)
-                        {{$key}} : {{$value}}<br>
+                        <tr><td>{{$key}}</td><td>{{$value}}</td></tr>
                     @endforeach
+                    
+                            
+                        
+                    </table>
                 </div>
                 <div class="show">
                     <a href="http://ec2-18-191-25-220.us-east-2.compute.amazonaws.com/vote/public/top">入力画面へ</a>
